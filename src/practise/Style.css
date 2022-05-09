@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+}
+.App{
+	background-image: linear-gradient(lightblue,lightpink,white);
+	height: 100vh;
+	
+}
+
+.head{
+	text-align: center;
+	font-size:35px;
+	position: relative;
+	font-weight: bold;
+    text-shadow: 4px 4px 4px cyan;
+    padding-top: 10px;
+}
+
+.box1{
+	border: 1px solid black;
+	background-color: lightgrey;
+	width: 280px;
+	height: 50px;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 25px;
+	position: absolute;
+	left: 450px;
+	top: 140px;
+}
+
+.box1:hover{
+	background-color: cyan;
+}
+
+.box2{
+	border: 1px solid black;
+	background-color: lightgrey;
+    width: 280px;
+	height: 50px;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 25px;
+	position: absolute;
+	top: 140px;
+	left: 830px;
+}
+
+.box2:hover{
+	background-color: cyan;
+}
+
+.container1{
+	height: 250px;
+	width: 500px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: cyan;
+	border-radius: 20px;
+	margin-top: 200px;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.container2{
+	height: 260px;
+	width: 500px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: violet;
+	border-radius: 20px;
+	position: relative;
+	top: 200px;
+	left: 900px;
+}
+
+.head1{
+	margin-top: 10px;
+	padding: 25px;
+}
+.head2{
+	margin-top: 10px;
+	padding: 25px;
+}
+
+.para1{
+	margin-top: 5px;
+}
+.para2{
+	margin-top: 5px;
+}
